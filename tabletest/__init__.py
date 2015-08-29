@@ -50,9 +50,9 @@ class TableTestMetaclass(type):
         return type.__new__(cls, name, bases, attrs)
 
 
-class TableTestCase(unittest.TestCase):
+class TableTestCase(unittest.TestCase,metaclass=TableTestMetaclass):
     """Base class for table-like test cases."""
-    __metaclass__ = TableTestMetaclass
+    # __metaclass__ = TableTestMetaclass
 
     TEST_CASES = []
 
