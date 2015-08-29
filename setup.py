@@ -10,7 +10,7 @@ setup(
     description='Unit testing module for table-like test, for Python 2.',
     long_description=readme(),
     classifiers = [
-        'Development Status :: 4 - Beta'
+        'Development Status :: 4 - Beta',
         'Environment :: Console',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
