@@ -2,6 +2,7 @@
 
 Many unit tests, especially those for side-effect free functions, can be written like this:
 
+import unittest
 class FooTest(unittest.TestCase):
   TEST_CASES = [ case_1, case_2, ... ]
   def test_all(self):
@@ -14,6 +15,7 @@ of the tests actually fail.
 
 TableTest aims to solve this problem. Using it, we can rewrite the previous example as:
 
+import tabletest
 class FooTest(tabletest.TableTestCase):
   TEST_CASES = [ case_1, case_2, ... ]
   def tabletest(self, test_case):
