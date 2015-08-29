@@ -1,6 +1,8 @@
 # TableTest [![Build Status](https://travis-ci.org/horia141/tabletest.svg)](https://travis-ci.org/horia141/tabletest) #
 
-Unit testing module for table-like test.
+Unit testing module for table-like test, for Python 2.
+
+For Python 3, check out [TableTest3](https://github.com/horia141/tabletest3).
 
 Many unit tests, especially those for side-effect free functions, can be written like this:
 
@@ -17,7 +19,7 @@ If there are many test cases, they'll all appear as a single unit test in test r
 the failure of one test will cause all others to fail. Finally, it might be hard to identify which
 of the tests actually fail.
 
-Tabletest aims to solve this problem. Using it, we can rewrite the previous example as:
+TableTest aims to solve this problem. Using it, we can rewrite the previous example as:
 
 ```python
 import tabletest
