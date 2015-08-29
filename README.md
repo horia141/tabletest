@@ -1,4 +1,4 @@
-# TableTest #
+# TableTest [![Build Status](https://travis-ci.org/horia141/tabletest.svg)](https://travis-ci.org/horia141/tabletest) #
 
 Unit testing module for table-like test.
 
