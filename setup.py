@@ -6,7 +6,7 @@ def readme():
 
 setup(
     name='tabletest',
-    version='0.0.2',
+    version='1.0.1',
     description='Unit testing module for table-like test, for Python 2.',
     long_description=readme(),
     classifiers = [
