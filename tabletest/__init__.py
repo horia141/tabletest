@@ -65,6 +65,7 @@ class TableTestCase(unittest.TestCase):
 
 
 class tabletest(object):
+    """Annotation for marking test methods as table tests."""
     def __init__(self, test_cases):
         self._test_cases = iter(test_cases)
 
