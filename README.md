@@ -41,4 +41,5 @@ The setup functions like this:
 * Iteration order is not guaranteed and should not be depended on.
 * All other `unittest.TestCase` behavior remains intact: `setUp` and `tearDown` methods, other test
   methods etc.
+* More than one test can be annotated with tabletests per test case.
 * However, the name must starst with `test_`, so it is picked up by the runner.
