@@ -31,3 +31,5 @@ before_install:
 
 script:
   - bazel --bazelrc=tools/bazelrc test --test_output=all //:tabletest_test
+
+sudo: false
