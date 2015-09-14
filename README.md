@@ -67,4 +67,4 @@ See [Tabletests][tabletests] and [How Tabletest Works][how-tabletest-works] for 
 
 [tabletests]: https://horia141.github.com/jekyll/update/2015/08/31/tabletests.html
 [how-tabletest-works]: https://horia141.github.com/jekyll/update/2015/09/08/how-tabletest-works.html
-[bazel]: https://bazel.io
+[bazel]: http://bazel.io
