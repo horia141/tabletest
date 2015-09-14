@@ -27,8 +27,7 @@ before_install:
   - sha256sum -c tools/bazel-0.1.0-installer-linux-x86_64.sh.sha256
   - chmod +x bazel-0.1.0-installer-linux-x86_64.sh
   - ./bazel-0.1.0-installer-linux-x86_64.sh --user
-  - cat ~/.bazelrc >> .bazelrc
+  - cat ~/.bazelrc >> ./tools/bazelrc
 
 script:
-  - bazel test //:tabletest_test
-
+  - bazel --bazelrc=tools/bazelrc test //:tabletest_test
