@@ -30,4 +30,4 @@ before_install:
   - cat ~/.bazelrc >> ./tools/bazelrc
 
 script:
-  - bazel --bazelrc=tools/bazelrc test //:tabletest_test
+  - bazel --bazelrc=tools/bazelrc test --test_output=all //:tabletest_test
