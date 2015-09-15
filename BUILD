@@ -1,6 +1,7 @@
 py_library(
     name = "tabletest",
     srcs = ["tabletest/__init__.py"],
+    visibility = ["//visibility:public"],
     srcs_version = "PY2"
 )
 
