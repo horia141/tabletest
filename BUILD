@@ -24,7 +24,7 @@ py_test(
 
 pypi_package(
     name = "tabletest_pkg",
-    version = "1.0.4",
+    version = "1.1.0",
     description = "Unit testing module for table-like test, for Python 2.",
     long_description = "README.md",
     classifiers = [
